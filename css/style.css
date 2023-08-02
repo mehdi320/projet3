@@ -386,7 +386,6 @@ padding-bottom: 30px;
 }
 
 .section-title{
-margin-bottom: 0px;
 padding-left: 0px;
 }
 
@@ -729,6 +728,17 @@ align-items: center;
 .populaires{
 background: rgba(242, 242, 242, 1);
 padding: 0px;
+}
+
+.section-title{
+margin-bottom: none;
+padding-left: 0px;
+}
+
+
+.fa-chart-line{
+margin-left: 50px;
+position: initial;
 }
 
 .populaires-title{
