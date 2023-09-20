@@ -52,7 +52,7 @@ color: #0065FC;
   .link-couleur-hebergements::before {
     content: '';
     position: absolute;
-    top: -23px; /* Positionne la barre à 10% du haut */
+    top: -23px; 
     left: 0;
     width: 100%;
     height: 2px;
