@@ -45,28 +45,28 @@ color: #0065FC;
 }
 
 .link-couleur-hebergements {
-    display: inline-block;
-    position: relative;
-  }
+display: inline-block;
+position: relative;
+}
+
+.link-couleur-hebergements::before {
+content: '';
+position: absolute;
+top: -23px; 
+left: 0;
+width: 100%;
+height: 2px;
+background-color: #0065FC;
+transform: scaleX(0);
+transform-origin: left center;
+transition: transform 0.2s ease;
+ }
   
-  .link-couleur-hebergements::before {
-    content: '';
-    position: absolute;
-    top: -23px; 
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #0065FC;
-    transform: scaleX(0);
-    transform-origin: left center;
-    transition: transform 0.2s ease;
-  }
+.link-couleur-hebergements:hover::before {
+transform: scaleX(1);
+ }
   
-  .link-couleur-hebergements:hover::before {
-    transform: scaleX(1);
-  }
-  
- 
+
 nav{
 display: flex;
 justify-content: space-between;
